@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(css/bg.png) no-repeat center center fixed;
+    background-size: cover;
+}
+.container{
+    color: black;
+    position: absolute;
+    top: 15%;
+    left: 33%;
+}
+.container h1{
+    font-family:'Algerian';
+    width: 75%;
+    display: inline-block;
+    font-size: 40px;
+    border-bottom: 3px solid black;
+    margin-bottom: 15px;
+    padding: 13px 0;
+   
+}
+.box{
+    width: 120%;
+    margin: 7px 0px;
+    border-bottom: 2px solid black;
+    border-radius: 10px;
+}
+
+.box input{
+font-family:initial;
+background: none;
+width: 120%;
+margin: 12px 0px;
+padding: 5px 10px;
+font-size: 20px;
+border: none;
+outline: none;
+color: black;
+}
+
+.box i{
+    
+    width: 25px;
+    text-align: center;
+    color: black;
+}
+
+.btn{
+    color: black;
+    cursor: pointer;
+    outline: none;
+    margin: 12px 0;
+    padding: 10px 21px;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 18px;
+    background: none;
+    font-weight: bold;
+}
+
+.btn:hover{
+    color: black;
+    background: white;
+}
